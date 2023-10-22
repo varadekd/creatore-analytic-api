@@ -1,0 +1,127 @@
+{
+    "engagementData": {
+      "ranges": {
+        "lastHour": {
+          "dateRange": "01:00 PM - 02:00 PM, 10/22/2023",
+          "productWithMaxTimeSpent": {
+            "id": 12,
+            "name": "Digital Artwork A",
+            "timeSpent": "25 minutes"
+          },
+          "clickToSaleRatio": [
+            {
+              "productId": 12,
+              "productName": "Digital Artwork A",
+              "clicks": 50,
+              "sales": 20,
+              "ratio": "40%"
+            },
+            {
+              "productId": 15,
+              "productName": "E-Book B",
+              "clicks": 40,
+              "sales": 25,
+              "ratio": "62.5%"
+            }
+          ]
+        },
+        "oneDay": {
+          "dateRange": "10/22/2023",
+          "productWithMaxTimeSpent": {
+            "id": 15,
+            "name": "E-Book B",
+            "timeSpent": "2 hours 15 minutes"
+          },
+          "clickToSaleRatio": [
+            {
+              "productId": 12,
+              "productName": "Digital Artwork A",
+              "clicks": 300,
+              "sales": 70,
+              "ratio": "23.3%"
+            },
+            {
+              "productId": 15,
+              "productName": "E-Book B",
+              "clicks": 400,
+              "sales": 80,
+              "ratio": "20%"
+            }
+          ]
+        },
+        "oneWeek": {
+          "dateRange": "15/10/2023 - 22/10/2023",
+          "productWithMaxTimeSpent": {
+            "id": 12,
+            "name": "Digital Artwork A",
+            "timeSpent": "12 hours"
+          },
+          "clickToSaleRatio": [
+            {
+              "productId": 12,
+              "productName": "Digital Artwork A",
+              "clicks": 2100,
+              "sales": 290,
+              "ratio": "13.8%"
+            },
+            {
+              "productId": 15,
+              "productName": "E-Book B",
+              "clicks": 2500,
+              "sales": 320,
+              "ratio": "12.8%"
+            }
+          ]
+        },
+        "oneMonth": {
+          "dateRange": "22/09/2023 - 22/10/2023",
+          "productWithMaxTimeSpent": {
+            "id": 19,
+            "name": "Online Course C",
+            "timeSpent": "36 hours"
+          },
+          "clickToSaleRatio": [
+            {
+              "productId": 12,
+              "productName": "Digital Artwork A",
+              "clicks": 8800,
+              "sales": 880,
+              "ratio": "10%"
+            },
+            {
+              "productId": 15,
+              "productName": "E-Book B",
+              "clicks": 9500,
+              "sales": 960,
+              "ratio": "10.1%"
+            }
+          ]
+        },
+        "threeMonths": {
+          "dateRange": "22/07/2023 - 22/10/2023",
+          "productWithMaxTimeSpent": {
+            "id": 19,
+            "name": "Online Course C",
+            "timeSpent": "98 hours"
+          },
+          "clickToSaleRatio": [
+            {
+              "productId": 12,
+              "productName": "Digital Artwork A",
+              "clicks": 26500,
+              "sales": 1860,
+              "ratio": "7%"
+            },
+            {
+              "productId": 15,
+              "productName": "E-Book B",
+              "clicks": 27900,
+              "sales": 1980,
+              "ratio": "7.1%"
+            }
+          ]
+        }
+      }
+    }
+  }
+  
