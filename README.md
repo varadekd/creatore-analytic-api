@@ -1,24 +1,47 @@
-# README
+# Gumroad Creator Analytics Dashboard API - [Coding challenge]
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About the repo
 
-Things you may want to cover:
+Creative Analytics Dashboard API is a backend service developed to empower Gumroad creators with deep insights into their sales, products, and audience interactions.
 
-* Ruby version
+## Table of contents
 
-* System dependencies
+- [Objective](#objective)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Setup](#setup)
+- [API's](#features)
 
-* Configuration
+### Objective
 
-* Database creation
+This API provides endpoints to fetch detailed analytics related to sales, audience engagement, and product interaction. The goal us to provide actionable insights for creators, allowing them to tailor their content effectively.
 
-* Database initialization
+### Features
 
-* How to run the test suite
+- **Sales Analytics:** Fetch total over customizable date ranges.
+- **Audience Engagement Analytics:** Track views on product page and monitor various engagement metrics.
+- **Product Interactions:** Extract metrics on product sample/downloads and show feedback/ratings on products.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Architecture
 
-* Deployment instructions
+**Decoupled Design**
+The backend is built using Rails and is designed to operate independently from the frontend. This ensures flexibility, scalability, and clarity in responsibilities.
 
-* ...
+### Setup
+
+1. Clone the repository:
+   \```bash
+   git clone <repository_link>
+   \```
+2. Install required gems:
+   \```bash
+   bundle install
+   \```
+3. Start the server:
+   \```bash
+   rails server
+   \```
+
+#### Brief about the problem statement
+
+This API are designed as a part of coding challenge for Gumroad.The problem statement is curated by Kushagra Varade, with a thought that this aligns with the Gumroad business.
