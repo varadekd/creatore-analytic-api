@@ -20,7 +20,7 @@ This API provides endpoints to fetch detailed analytics related to sales, audien
 
 - **Sales Analytics:** Fetch total over customizable date ranges.
 - **Audience Engagement Analytics:** Track views on product page and monitor various engagement metrics.
-- **Product Interactions:** Extract metrics on product sample/downloads and show feedback/ratings on products.
+- **Product Interactions:** Extract metrics on product sales and show feedback/ratings on products.
 
 ### Architecture
 
