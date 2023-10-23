@@ -1,78 +1,79 @@
 {
-    "salesData": {
-      "totalSales": 5450,
-      "ranges": {
-        "lastHour": {
-          "dateRange": "01:00 PM - 02:00 PM, 10/22/2023",
-          "sales": 75,
-          "bestSellingProducts": [
-            { "id": 12, "name": "Digital Artwork A", "unitsSold": 20 },
-            { "id": 15, "name": "E-Book B", "unitsSold": 25 },
-            { "id": 19, "name": "Online Course C", "unitsSold": 10 },
-            { "id": 20, "name": "Software D", "unitsSold": 10 },
-            { "id": 21, "name": "Music Album E", "unitsSold": 5 },
-            { "id": 22, "name": "Photography F", "unitsSold": 5 }
-          ],
-          "refunds": 0,
-          "chargebacks": 0
-        },
-        "oneDay": {
-          "dateRange": "10/22/2023",
-          "sales": 300,
-          "bestSellingProducts": [
-            { "id": 15, "name": "E-Book B", "unitsSold": 80 },
-            { "id": 12, "name": "Digital Artwork A", "unitsSold": 70 },
-            { "id": 19, "name": "Online Course C", "unitsSold": 50 },
-            { "id": 20, "name": "Software D", "unitsSold": 40 },
-            { "id": 21, "name": "Music Album E", "unitsSold": 30 },
-            { "id": 22, "name": "Photography F", "unitsSold": 30 }
-          ],
-          "refunds": 5,
-          "chargebacks": 1
-        },
-        "oneWeek": {
-          "dateRange": "15/10/2023 - 22/10/2023",
-          "sales": 1100,
-          "bestSellingProducts": [
-            { "id": 15, "name": "E-Book B", "unitsSold": 320 },
-            { "id": 12, "name": "Digital Artwork A", "unitsSold": 290 },
-            { "id": 19, "name": "Online Course C", "unitsSold": 240 },
-            { "id": 20, "name": "Software D", "unitsSold": 190 },
-            { "id": 21, "name": "Music Album E", "unitsSold": 160 },
-            { "id": 22, "name": "Photography F", "unitsSold": 150 }
-          ],
-          "refunds": 20,
-          "chargebacks": 3
-        },
-        "oneMonth": {
-          "dateRange": "22/09/2023 - 22/10/2023",
-          "sales": 2600,
-          "bestSellingProducts": [
-            { "id": 15, "name": "E-Book B", "unitsSold": 960 },
-            { "id": 12, "name": "Digital Artwork A", "unitsSold": 880 },
-            { "id": 19, "name": "Online Course C", "unitsSold": 720 },
-            { "id": 20, "name": "Software D", "unitsSold": 690 },
-            { "id": 21, "name": "Music Album E", "unitsSold": 640 },
-            { "id": 22, "name": "Photography F", "unitsSold": 610 }
-          ],
-          "refunds": 45,
-          "chargebacks": 7
-        },
-        "threeMonths": {
-          "dateRange": "22/07/2023 - 22/10/2023",
-          "sales": 5450,
-          "bestSellingProducts": [
-            { "id": 15, "name": "E-Book B", "unitsSold": 1980 },
-            { "id": 12, "name": "Digital Artwork A", "unitsSold": 1860 },
-            { "id": 19, "name": "Online Course C", "unitsSold": 1540 },
-            { "id": 20, "name": "Software D", "unitsSold": 1470 },
-            { "id": 21, "name": "Music Album E", "unitsSold": 1360 },
-            { "id": 22, "name": "Photography F", "unitsSold": 1300 }
-          ],
-          "refunds": 150,
-          "chargebacks": 25
-        }
+  "salesData": {
+      "lastHour": {
+        "dateRange": "01:00 PM - 02:00 PM, 10/22/2023",
+        "sales": 3524.75,
+        "bestSellingProducts": [
+          { "id": 15, "name": "E-Book B", "unitsSold": 80, "salesPrice": 49.99, "refundPrice": 5.99 },
+          { "id": 12, "name": "Digital Artwork A", "unitsSold": 70, "salesPrice": 35.99, "refundPrice": 3.49 },
+          { "id": 19, "name": "Online Course C", "unitsSold": 50, "salesPrice": 79.99, "refundPrice": 8.49 },
+          { "id": 20, "name": "Software D", "unitsSold": 40, "salesPrice": 29.99, "refundPrice": 4.99 },
+          { "id": 21, "name": "Music Album E", "unitsSold": 30, "salesPrice": 14.99, "refundPrice": 2.99 },
+          { "id": 22, "name": "Photography F", "unitsSold": 30, "salesPrice": 42.50, "refundPrice": 4.00 }
+        ],
+        "refunds": 0,
+        "salesTotal": 3524.75,
+        "refundTotal": 0
+      },
+      "oneDay": {
+        "dateRange": "10/22/2023",
+        "sales": 1433.5,
+        "bestSellingProducts": [
+          { "id": 15, "name": "E-Book B", "unitsSold": 80, "salesPrice": 49.99, "refundPrice": 5.99 },
+          { "id": 12, "name": "Digital Artwork A", "unitsSold": 70, "salesPrice": 35.99, "refundPrice": 3.49 },
+          { "id": 19, "name": "Online Course C", "unitsSold": 50, "salesPrice": 79.99, "refundPrice": 8.49 },
+          { "id": 20, "name": "Software D", "unitsSold": 40, "salesPrice": 29.99, "refundPrice": 4.99 },
+          { "id": 21, "name": "Music Album E", "unitsSold": 30, "salesPrice": 14.99, "refundPrice": 2.99 },
+          { "id": 22, "name": "Photography F", "unitsSold": 30, "salesPrice": 42.50, "refundPrice": 4.00 }
+        ],
+        "refunds": 5,
+        "salesTotal": 1433.5,
+        "refundTotal": 47.35
+      },
+      "oneWeek": {
+        "dateRange": "15/10/2023 - 22/10/2023",
+        "sales": 7054.25,
+        "bestSellingProducts": [
+          { "id": 15, "name": "E-Book B", "unitsSold": 320, "salesPrice": 49.99, "refundPrice": 5.99 },
+          { "id": 12, "name": "Digital Artwork A", "unitsSold": 290, "salesPrice": 35.99, "refundPrice": 3.49 },
+          { "id": 19, "name": "Online Course C", "unitsSold": 240, "salesPrice": 79.99, "refundPrice": 8.49 },
+          { "id": 20, "name": "Software D", "unitsSold": 190, "salesPrice": 29.99, "refundPrice": 4.99 },
+          { "id": 21, "name": "Music Album E", "unitsSold": 160, "salesPrice": 14.99, "refundPrice": 2.99 },
+          { "id": 22, "name": "Photography F", "unitsSold": 150, "salesPrice": 42.50, "refundPrice": 4.00 }
+        ],
+        "refunds": 20,
+        "salesTotal": 7054.25,
+        "refundTotal": 199.65
+      },
+      "oneMonth": {
+        "dateRange": "22/09/2023 - 22/10/2023",
+        "sales": 26497.9,
+        "bestSellingProducts": [
+          { "id": 15, "name": "E-Book B", "unitsSold": 960, "salesPrice": 49.99, "refundPrice": 5.99 },
+          { "id": 12, "name": "Digital Artwork A", "unitsSold": 880, "salesPrice": 35.99, "refundPrice": 3.49 },
+          { "id": 19, "name": "Online Course C", "unitsSold": 720, "salesPrice": 79.99, "refundPrice": 8.49 },
+          { "id": 20, "name": "Software D", "unitsSold": 690, "salesPrice": 29.99, "refundPrice": 4.99 },
+          { "id": 21, "name": "Music Album E", "unitsSold": 640, "salesPrice": 14.99, "refundPrice": 2.99 },
+          { "id": 22, "name": "Photography F", "unitsSold": 610, "salesPrice": 42.50, "refundPrice": 4.00 }
+        ],
+        "refunds": 45,
+        "salesTotal": 26497.9,
+        "refundTotal": 352.35
+      },
+      "threeMonths": {
+        "dateRange": "22/07/2023 - 22/10/2023",
+        "sales": 54509,
+        "bestSellingProducts": [
+          { "id": 15, "name": "E-Book B", "unitsSold": 1980, "salesPrice": 49.99, "refundPrice": 5.99 },
+          { "id": 12, "name": "Digital Artwork A", "unitsSold": 1860, "salesPrice": 35.99, "refundPrice": 3.49 },
+          { "id": 19, "name": "Online Course C", "unitsSold": 1540, "salesPrice": 79.99, "refundPrice": 8.49 },
+          { "id": 20, "name": "Software D", "unitsSold": 1470, "salesPrice": 29.99, "refundPrice": 4.99 },
+          { "id": 21, "name": "Music Album E", "unitsSold": 1360, "salesPrice": 14.99, "refundPrice": 2.99 },
+          { "id": 22, "name": "Photography F", "unitsSold": 1300, "salesPrice": 42.50, "refundPrice": 4.00 }
+        ],
+        "refunds": 150,
+        "salesTotal": 54509,
+        "refundTotal": 1030.85
       }
     }
-  }
-  
+}

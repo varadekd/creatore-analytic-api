@@ -1,347 +1,358 @@
 {
-    "products": [
-      {
-        "productId": 12,
-        "productName": "Digital Artwork A",
-        "sales": {
-          "lastHour": 20,
-          "last24Hours": 70,
-          "lastWeek": 290,
-          "lastMonth": 880,
-          "lastThreeMonths": 1860
+  "products": [
+    {
+      "productId": 12,
+      "productName": "Digital Artwork A",
+      "sales": {
+        "lastHour": 20,
+        "last24Hours": 70,
+        "lastWeek": 290,
+        "lastMonth": 880,
+        "lastThreeMonths": 1860
+      },
+      "refunds": {
+        "lastHour": 0,
+        "last24Hours": 5,
+        "lastWeek": 20,
+        "lastMonth": 45,
+        "lastThreeMonths": 150
+      },
+      "timeSpent": {
+        "lastHour": "25 minutes",
+        "last24Hours": "2 hours",
+        "lastWeek": "12 hours",
+        "lastMonth": "24 hours",
+        "lastThreeMonths": "72 hours"
+      },
+      "feedback": {
+        "lastHour": {
+          "averageRating": 4.8,
+          "totalReviews": 20,
+          "positiveFeedback": 19,
+          "negativeFeedback": 1
         },
-        "refunds": {
-          "lastHour": 0,
-          "last24Hours": 5,
-          "lastWeek": 20,
-          "lastMonth": 45,
-          "lastThreeMonths": 150
+        "last24Hours": {
+          "averageRating": 4.7,
+          "totalReviews": 70,
+          "positiveFeedback": 65,
+          "negativeFeedback": 5
         },
-        "timeSpent": {
-          "lastHour": "25 minutes",
-          "last24Hours": "2 hours",
-          "lastWeek": "12 hours",
-          "lastMonth": "24 hours",
-          "lastThreeMonths": "72 hours"
+        "lastWeek": {
+          "averageRating": 4.6,
+          "totalReviews": 290,
+          "positiveFeedback": 260,
+          "negativeFeedback": 30
         },
-        "feedback": {
-          "lastHour": {
-            "averageRating": 4.8,
-            "totalReviews": 20,
-            "positiveFeedback": 19,
-            "negativeFeedback": 1
-          },
-          "last24Hours": {
-            "averageRating": 4.7,
-            "totalReviews": 70,
-            "positiveFeedback": 65,
-            "negativeFeedback": 5
-          },
-          "lastWeek": {
-            "averageRating": 4.6,
-            "totalReviews": 290,
-            "positiveFeedback": 260,
-            "negativeFeedback": 30
-          },
-          "lastMonth": {
-            "averageRating": 4.7,
-            "totalReviews": 880,
-            "positiveFeedback": 800,
-            "negativeFeedback": 80
-          },
-          "lastThreeMonths": {
-            "averageRating": 4.7,
-            "totalReviews": 1860,
-            "positiveFeedback": 1680,
-            "negativeFeedback": 180
-          }
+        "lastMonth": {
+          "averageRating": 4.7,
+          "totalReviews": 880,
+          "positiveFeedback": 800,
+          "negativeFeedback": 80
+        },
+        "lastThreeMonths": {
+          "averageRating": 4.7,
+          "totalReviews": 1860,
+          "positiveFeedback": 1680,
+          "negativeFeedback": 180
         }
       },
-      {
-        "productId": 15,
-        "productName": "E-Book B",
-        "sales": {
-          "lastHour": 25,
-          "last24Hours": 80,
-          "lastWeek": 320,
-          "lastMonth": 960,
-          "lastThreeMonths": 1980
+      "salePrice": 35.99,
+      "refundPrice": 3.49
+    },
+    {
+      "productId": 15,
+      "productName": "E-Book B",
+      "sales": {
+        "lastHour": 25,
+        "last24Hours": 80,
+        "lastWeek": 320,
+        "lastMonth": 960,
+        "lastThreeMonths": 1980
+      },
+      "refunds": {
+        "lastHour": 0,
+        "last24Hours": 5,
+        "lastWeek": 20,
+        "lastMonth": 45,
+        "lastThreeMonths": 150
+      },
+      "timeSpent": {
+        "lastHour": "15 minutes",
+        "last24Hours": "2 hours 15 minutes",
+        "lastWeek": "10 hours",
+        "lastMonth": "28 hours",
+        "lastThreeMonths": "82 hours"
+      },
+      "feedback": {
+        "lastHour": {
+          "averageRating": 4.7,
+          "totalReviews": 25,
+          "positiveFeedback": 23,
+          "negativeFeedback": 2
         },
-        "refunds": {
-          "lastHour": 0,
-          "last24Hours": 5,
-          "lastWeek": 20,
-          "lastMonth": 45,
-          "lastThreeMonths": 150
+        "last24Hours": {
+          "averageRating": 4.6,
+          "totalReviews": 80,
+          "positiveFeedback": 72,
+          "negativeFeedback": 8
         },
-        "timeSpent": {
-          "lastHour": "15 minutes",
-          "last24Hours": "2 hours 15 minutes",
-          "lastWeek": "10 hours",
-          "lastMonth": "28 hours",
-          "lastThreeMonths": "82 hours"
+        "lastWeek": {
+          "averageRating": 4.5,
+          "totalReviews": 320,
+          "positiveFeedback": 290,
+          "negativeFeedback": 30
         },
-        "feedback": {
-          "lastHour": {
-            "averageRating": 4.7,
-            "totalReviews": 25,
-            "positiveFeedback": 23,
-            "negativeFeedback": 2
-          },
-          "last24Hours": {
-            "averageRating": 4.6,
-            "totalReviews": 80,
-            "positiveFeedback": 72,
-            "negativeFeedback": 8
-          },
-          "lastWeek": {
-            "averageRating": 4.5,
-            "totalReviews": 320,
-            "positiveFeedback": 290,
-            "negativeFeedback": 30
-          },
-          "lastMonth": {
-            "averageRating": 4.6,
-            "totalReviews": 960,
-            "positiveFeedback": 870,
-            "negativeFeedback": 90
-          },
-          "lastThreeMonths": {
-            "averageRating": 4.6,
-            "totalReviews": 1980,
-            "positiveFeedback": 1790,
-            "negativeFeedback": 190
-          }
+        "lastMonth": {
+          "averageRating": 4.6,
+          "totalReviews": 960,
+          "positiveFeedback": 870,
+          "negativeFeedback": 90
+        },
+        "lastThreeMonths": {
+          "averageRating": 4.6,
+          "totalReviews": 1980,
+          "positiveFeedback": 1790,
+          "negativeFeedback": 190
         }
       },
-      {
-        "productId": 22,
-        "productName": "Online Course C",
-        "sales": {
-          "lastHour": 18,
-          "last24Hours": 78,
-          "lastWeek": 312,
-          "lastMonth": 940,
-          "lastThreeMonths": 1920
+      "salePrice": 49.99,
+      "refundPrice": 5.99
+    },
+    {
+      "productId": 22,
+      "productName": "Online Course C",
+      "sales": {
+        "lastHour": 18,
+        "last24Hours": 78,
+        "lastWeek": 312,
+        "lastMonth": 940,
+        "lastThreeMonths": 1920
+      },
+      "refunds": {
+        "lastHour": 1,
+        "last24Hours": 6,
+        "lastWeek": 22,
+        "lastMonth": 40,
+        "lastThreeMonths": 140
+      },
+      "timeSpent": {
+        "lastHour": "18 minutes",
+        "last24Hours": "2 hours 30 minutes",
+        "lastWeek": "14 hours",
+        "lastMonth": "26 hours",
+        "lastThreeMonths": "78 hours"
+      },
+      "feedback": {
+        "lastHour": {
+          "averageRating": 4.7,
+          "totalReviews": 18,
+          "positiveFeedback": 16,
+          "negativeFeedback": 2
         },
-        "refunds": {
-          "lastHour": 1,
-          "last24Hours": 6,
-          "lastWeek": 22,
-          "lastMonth": 40,
-          "lastThreeMonths": 140
+        "last24Hours": {
+          "averageRating": 4.6,
+          "totalReviews": 78,
+          "positiveFeedback": 71,
+          "negativeFeedback": 7
         },
-        "timeSpent": {
-          "lastHour": "18 minutes",
-          "last24Hours": "2 hours 30 minutes",
-          "lastWeek": "14 hours",
-          "lastMonth": "26 hours",
-          "lastThreeMonths": "78 hours"
+        "lastWeek": {
+          "averageRating": 4.5,
+          "totalReviews": 312,
+          "positiveFeedback": 280,
+          "negativeFeedback": 32
         },
-        "feedback": {
-          "lastHour": {
-            "averageRating": 4.7,
-            "totalReviews": 18,
-            "positiveFeedback": 16,
-            "negativeFeedback": 2
-          },
-          "last24Hours": {
-            "averageRating": 4.6,
-            "totalReviews": 78,
-            "positiveFeedback": 71,
-            "negativeFeedback": 7
-          },
-          "lastWeek": {
-            "averageRating": 4.5,
-            "totalReviews": 312,
-            "positiveFeedback": 280,
-            "negativeFeedback": 32
-          },
-          "lastMonth": {
-            "averageRating": 4.7,
-            "totalReviews": 940,
-            "positiveFeedback": 860,
-            "negativeFeedback": 80
-          },
-          "lastThreeMonths": {
-            "averageRating": 4.7,
-            "totalReviews": 1920,
-            "positiveFeedback": 1740,
-            "negativeFeedback": 180
-          }
+        "lastMonth": {
+          "averageRating": 4.7,
+          "totalReviews": 940,
+          "positiveFeedback": 860,
+          "negativeFeedback": 80
+        },
+        "lastThreeMonths": {
+          "averageRating": 4.7,
+          "totalReviews": 1920,
+          "positiveFeedback": 1740,
+          "negativeFeedback": 180
         }
       },
-      {
-        "productId": 34,
-        "productName": "Software D",
-        "sales": {
-          "lastHour": 15,
-          "last24Hours": 68,
-          "lastWeek": 280,
-          "lastMonth": 900,
-          "lastThreeMonths": 1850
+      "salePrice": 79.99,
+      "refundPrice": 8.49
+    },
+    {
+      "productId": 34,
+      "productName": "Software D",
+      "sales": {
+        "lastHour": 15,
+        "last24Hours": 68,
+        "lastWeek": 280,
+        "lastMonth": 900,
+        "lastThreeMonths": 1850
+      },
+      "refunds": {
+        "lastHour": 1,
+        "last24Hours": 4,
+        "lastWeek": 15,
+        "lastMonth": 38,
+        "lastThreeMonths": 130
+      },
+      "timeSpent": {
+        "lastHour": "12 minutes",
+        "last24Hours": "1 hour 45 minutes",
+        "lastWeek": "9 hours",
+        "lastMonth": "22 hours",
+        "lastThreeMonths": "70 hours"
+      },
+      "feedback": {
+        "lastHour": {
+          "averageRating": 4.8,
+          "totalReviews": 15,
+          "positiveFeedback": 14,
+          "negativeFeedback": 1
         },
-        "refunds": {
-          "lastHour": 1,
-          "last24Hours": 4,
-          "lastWeek": 15,
-          "lastMonth": 38,
-          "lastThreeMonths": 130
+        "last24Hours": {
+          "averageRating": 4.7,
+          "totalReviews": 68,
+          "positiveFeedback": 63,
+          "negativeFeedback": 5
         },
-        "timeSpent": {
-          "lastHour": "12 minutes",
-          "last24Hours": "1 hour 45 minutes",
-          "lastWeek": "9 hours",
-          "lastMonth": "22 hours",
-          "lastThreeMonths": "70 hours"
+        "lastWeek": {
+          "averageRating": 4.6,
+          "totalReviews": 280,
+          "positiveFeedback": 255,
+          "negativeFeedback": 25
         },
-        "feedback": {
-          "lastHour": {
-            "averageRating": 4.8,
-            "totalReviews": 15,
-            "positiveFeedback": 14,
-            "negativeFeedback": 1
-          },
-          "last24Hours": {
-            "averageRating": 4.7,
-            "totalReviews": 68,
-            "positiveFeedback": 63,
-            "negativeFeedback": 5
-          },
-          "lastWeek": {
-            "averageRating": 4.6,
-            "totalReviews": 280,
-            "positiveFeedback": 255,
-            "negativeFeedback": 25
-          },
-          "lastMonth": {
-            "averageRating": 4.7,
-            "totalReviews": 900,
-            "positiveFeedback": 820,
-            "negativeFeedback": 80
-          },
-          "lastThreeMonths": {
-            "averageRating": 4.7,
-            "totalReviews": 1850,
-            "positiveFeedback": 1680,
-            "negativeFeedback": 170
-          }
+        "lastMonth": {
+          "averageRating": 4.7,
+          "totalReviews": 900,
+          "positiveFeedback": 820,
+          "negativeFeedback": 80
+        },
+        "lastThreeMonths": {
+          "averageRating": 4.7,
+          "totalReviews": 1850,
+          "positiveFeedback": 1680,
+          "negativeFeedback": 170
         }
       },
-      {
-        "productId": 45,
-        "productName": "Music Album E",
-        "sales": {
-          "lastHour": 20,
-          "last24Hours": 75,
-          "lastWeek": 300,
-          "lastMonth": 920,
-          "lastThreeMonths": 1900
+      "salePrice": 29.99,
+      "refundPrice": 4.99
+    },
+    {
+      "productId": 45,
+      "productName": "Music Album E",
+      "sales": {
+        "lastHour": 20,
+        "last24Hours": 75,
+        "lastWeek": 300,
+        "lastMonth": 920,
+        "lastThreeMonths": 1900
+      },
+      "refunds": {
+        "lastHour": 1,
+        "last24Hours": 5,
+        "lastWeek": 20,
+        "lastMonth": 42,
+        "lastThreeMonths": 145
+      },
+      "timeSpent": {
+        "lastHour": "24 minutes",
+        "last24Hours": "2 hours 10 minutes",
+        "lastWeek": "13 hours",
+        "lastMonth": "25 hours",
+        "lastThreeMonths": "75 hours"
+      },
+      "feedback": {
+        "lastHour": {
+          "averageRating": 4.7,
+          "totalReviews": 20,
+          "positiveFeedback": 18,
+          "negativeFeedback": 2
         },
-        "refunds": {
-          "lastHour": 1,
-          "last24Hours": 5,
-          "lastWeek": 20,
-          "lastMonth": 42,
-          "lastThreeMonths": 145
+        "last24Hours": {
+          "averageRating": 4.6,
+          "totalReviews": 75,
+          "positiveFeedback": 68,
+          "negativeFeedback": 7
         },
-        "timeSpent": {
-          "lastHour": "24 minutes",
-          "last24Hours": "2 hours 10 minutes",
-          "lastWeek": "13 hours",
-          "lastMonth": "25 hours",
-          "lastThreeMonths": "75 hours"
+        "lastWeek": {
+          "averageRating": 4.5,
+          "totalReviews": 300,
+          "positiveFeedback": 275,
+          "negativeFeedback": 25
         },
-        "feedback": {
-          "lastHour": {
-            "averageRating": 4.7,
-            "totalReviews": 20,
-            "positiveFeedback": 18,
-            "negativeFeedback": 2
-          },
-          "last24Hours": {
-            "averageRating": 4.6,
-            "totalReviews": 75,
-            "positiveFeedback": 68,
-            "negativeFeedback": 7
-          },
-          "lastWeek": {
-            "averageRating": 4.5,
-            "totalReviews": 300,
-            "positiveFeedback": 275,
-            "negativeFeedback": 25
-          },
-          "lastMonth": {
-            "averageRating": 4.6,
-            "totalReviews": 920,
-            "positiveFeedback": 840,
-            "negativeFeedback": 80
-          },
-          "lastThreeMonths": {
-            "averageRating": 4.6,
-            "totalReviews": 1900,
-            "positiveFeedback": 1720,
-            "negativeFeedback": 180
-          }
+        "lastMonth": {
+          "averageRating": 4.6,
+          "totalReviews": 920,
+          "positiveFeedback": 840,
+          "negativeFeedback": 80
+        },
+        "lastThreeMonths": {
+          "averageRating": 4.6,
+          "totalReviews": 1900,
+          "positiveFeedback": 1720,
+          "negativeFeedback": 180
         }
       },
-      {
-        "productId": 58,
-        "productName": "Photography F",
-        "sales": {
-          "lastHour": 19,
-          "last24Hours": 72,
-          "lastWeek": 288,
-          "lastMonth": 912,
-          "lastThreeMonths": 1872
+      "salePrice": 14.99,
+      "refundPrice": 2.99
+    },
+    {
+      "productId": 58,
+      "productName": "Photography F",
+      "sales": {
+        "lastHour": 19,
+        "last24Hours": 72,
+        "lastWeek": 288,
+        "lastMonth": 912,
+        "lastThreeMonths": 1872
+      },
+      "refunds": {
+        "lastHour": 0,
+        "last24Hours": 4,
+        "lastWeek": 18,
+        "lastMonth": 40,
+        "lastThreeMonths": 135
+      },
+      "timeSpent": {
+        "lastHour": "23 minutes",
+        "last24Hours": "2 hours",
+        "lastWeek": "11 hours",
+        "lastMonth": "23 hours",
+        "lastThreeMonths": "69 hours"
+      },
+      "feedback": {
+        "lastHour": {
+          "averageRating": 4.7,
+          "totalReviews": 19,
+          "positiveFeedback": 17,
+          "negativeFeedback": 2
         },
-        "refunds": {
-          "lastHour": 0,
-          "last24Hours": 4,
-          "lastWeek": 18,
-          "lastMonth": 40,
-          "lastThreeMonths": 135
+        "last24Hours": {
+          "averageRating": 4.6,
+          "totalReviews": 72,
+          "positiveFeedback": 66,
+          "negativeFeedback": 6
         },
-        "timeSpent": {
-          "lastHour": "23 minutes",
-          "last24Hours": "2 hours",
-          "lastWeek": "11 hours",
-          "lastMonth": "23 hours",
-          "lastThreeMonths": "69 hours"
+        "lastWeek": {
+          "averageRating": 4.5,
+          "totalReviews": 288,
+          "positiveFeedback": 260,
+          "negativeFeedback": 28
         },
-        "feedback": {
-          "lastHour": {
-            "averageRating": 4.7,
-            "totalReviews": 19,
-            "positiveFeedback": 17,
-            "negativeFeedback": 2
-          },
-          "last24Hours": {
-            "averageRating": 4.6,
-            "totalReviews": 72,
-            "positiveFeedback": 66,
-            "negativeFeedback": 6
-          },
-          "lastWeek": {
-            "averageRating": 4.5,
-            "totalReviews": 288,
-            "positiveFeedback": 260,
-            "negativeFeedback": 28
-          },
-          "lastMonth": {
-            "averageRating": 4.6,
-            "totalReviews": 912,
-            "positiveFeedback": 830,
-            "negativeFeedback": 82
-          },
-          "lastThreeMonths": {
-            "averageRating": 4.6,
-            "totalReviews": 1872,
-            "positiveFeedback": 1695,
-            "negativeFeedback": 177
-          }
+        "lastMonth": {
+          "averageRating": 4.6,
+          "totalReviews": 912,
+          "positiveFeedback": 830,
+          "negativeFeedback": 82
+        },
+        "lastThreeMonths": {
+          "averageRating": 4.6,
+          "totalReviews": 1872,
+          "positiveFeedback": 1695,
+          "negativeFeedback": 177
         }
-      }
-    ]
-  }
-  
+      },
+      "salePrice": 42.50,
+      "refundPrice": 4.00
+    }
+  ]
+}

@@ -1,127 +1,386 @@
 {
-    "engagementData": {
-      "ranges": {
-        "lastHour": {
-          "dateRange": "01:00 PM - 02:00 PM, 10/22/2023",
-          "productWithMaxTimeSpent": {
-            "id": 12,
-            "name": "Digital Artwork A",
-            "timeSpent": "25 minutes"
-          },
-          "clickToSaleRatio": [
-            {
-              "productId": 12,
-              "productName": "Digital Artwork A",
-              "clicks": 50,
-              "sales": 20,
-              "ratio": "40%"
-            },
-            {
-              "productId": 15,
-              "productName": "E-Book B",
-              "clicks": 40,
-              "sales": 25,
-              "ratio": "62.5%"
-            }
-          ]
+  "engagementData": {
+    "ranges": {
+      "lastHour": {
+        "dateRange": "01:00 PM - 02:00 PM, 10/22/2023",
+        "productWithMaxTimeSpent": {
+          "id": 12,
+          "name": "Digital Artwork A",
+          "timeSpent": "25 minutes"
         },
-        "oneDay": {
-          "dateRange": "10/22/2023",
-          "productWithMaxTimeSpent": {
-            "id": 15,
-            "name": "E-Book B",
-            "timeSpent": "2 hours 15 minutes"
-          },
-          "clickToSaleRatio": [
-            {
-              "productId": 12,
-              "productName": "Digital Artwork A",
-              "clicks": 300,
-              "sales": 70,
-              "ratio": "23.3%"
-            },
-            {
-              "productId": 15,
-              "productName": "E-Book B",
-              "clicks": 400,
-              "sales": 80,
-              "ratio": "20%"
+        "clickToSaleRatio": [
+          {
+            "productId": 12,
+            "productName": "Digital Artwork A",
+            "clicks": 50,
+            "sales": 20,
+            "ratio": "40%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "25%"
             }
-          ]
+          },
+          {
+            "productId": 15,
+            "productName": "E-Book B",
+            "clicks": 40,
+            "sales": 25,
+            "ratio": "62.5%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-20%"
+            }
+          },
+          {
+            "productId": 22,
+            "productName": "Online Course C",
+            "clicks": 36,
+            "sales": 18,
+            "ratio": "50%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "20%"
+            }
+          },
+          {
+            "productId": 34,
+            "productName": "Software D",
+            "clicks": 30,
+            "sales": 15,
+            "ratio": "50%",
+            "engagement": {
+              "impact": "no change",
+              "byPercentage": "0%"
+            }
+          },
+          {
+            "productId": 45,
+            "productName": "Music Album E",
+            "clicks": 20,
+            "sales": 20,
+            "ratio": "100%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-33.3%"
+            }
+          },
+          {
+            "productId": 58,
+            "productName": "Photography F",
+            "clicks": 38,
+            "sales": 19,
+            "ratio": "50%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "5.3%"
+            }
+          }
+        ]
+      },
+      "oneDay": {
+        "dateRange": "10/22/2023",
+        "productWithMaxTimeSpent": {
+          "id": 15,
+          "name": "E-Book B",
+          "timeSpent": "2 hours 15 minutes"
         },
-        "oneWeek": {
-          "dateRange": "15/10/2023 - 22/10/2023",
-          "productWithMaxTimeSpent": {
-            "id": 12,
-            "name": "Digital Artwork A",
-            "timeSpent": "12 hours"
-          },
-          "clickToSaleRatio": [
-            {
-              "productId": 12,
-              "productName": "Digital Artwork A",
-              "clicks": 2100,
-              "sales": 290,
-              "ratio": "13.8%"
-            },
-            {
-              "productId": 15,
-              "productName": "E-Book B",
-              "clicks": 2500,
-              "sales": 320,
-              "ratio": "12.8%"
+        "clickToSaleRatio": [
+          {
+            "productId": 12,
+            "productName": "Digital Artwork A",
+            "clicks": 300,
+            "sales": 70,
+            "ratio": "23.3%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "10.8%"
             }
-          ]
+          },
+          {
+            "productId": 15,
+            "productName": "E-Book B",
+            "clicks": 400,
+            "sales": 80,
+            "ratio": "20%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-12.5%"
+            }
+          },
+          {
+            "productId": 22,
+            "productName": "Online Course C",
+            "clicks": 380,
+            "sales": 75,
+            "ratio": "19.7%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "10.3%"
+            }
+          },
+          {
+            "productId": 34,
+            "productName": "Software D",
+            "clicks": 320,
+            "sales": 68,
+            "ratio": "21.3%",
+            "engagement": {
+              "impact": "no change",
+              "byPercentage": "6.7%"
+            }
+          },
+          {
+            "productId": 45,
+            "productName": "Music Album E",
+            "clicks": 280,
+            "sales": 75,
+            "ratio": "26.8%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-19.4%"
+            }
+          },
+          {
+            "productId": 58,
+            "productName": "Photography F",
+            "clicks": 300,
+            "sales": 72,
+            "ratio": "24%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "13.6%"
+            }
+          }
+        ]
+      },
+      "oneWeek": {
+        "dateRange": "15/10/2023 - 22/10/2023",
+        "productWithMaxTimeSpent": {
+          "id": 12,
+          "name": "Digital Artwork A",
+          "timeSpent": "12 hours"
         },
-        "oneMonth": {
-          "dateRange": "22/09/2023 - 22/10/2023",
-          "productWithMaxTimeSpent": {
-            "id": 19,
-            "name": "Online Course C",
-            "timeSpent": "36 hours"
-          },
-          "clickToSaleRatio": [
-            {
-              "productId": 12,
-              "productName": "Digital Artwork A",
-              "clicks": 8800,
-              "sales": 880,
-              "ratio": "10%"
-            },
-            {
-              "productId": 15,
-              "productName": "E-Book B",
-              "clicks": 9500,
-              "sales": 960,
-              "ratio": "10.1%"
+        "clickToSaleRatio": [
+          {
+            "productId": 12,
+            "productName": "Digital Artwork A",
+            "clicks": 2100,
+            "sales": 290,
+            "ratio": "13.8%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "13.8%"
             }
-          ]
+          },
+          {
+            "productId": 15,
+            "productName": "E-Book B",
+            "clicks": 2500,
+            "sales": 320,
+            "ratio": "12.8%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-13.3%"
+            }
+          },
+          {
+            "productId": 22,
+            "productName": "Online Course C",
+            "clicks": 2400,
+            "sales": 312,
+            "ratio": "13%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "8.3%"
+            }
+          },
+          {
+            "productId": 34,
+            "productName": "Software D",
+            "clicks": 1900,
+            "sales": 280,
+            "ratio": "14.7%",
+            "engagement": {
+              "impact": "no change",
+              "byPercentage": "7.3%"
+            }
+          },
+          {
+            "productId": 45,
+            "productName": "Music Album E",
+            "clicks": 1600,
+            "sales": 300,
+            "ratio": "18.8%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-11.1%"
+            }
+          },
+          {
+            "productId": 58,
+            "productName": "Photography F",
+            "clicks": 1500,
+            "sales": 288,
+            "ratio": "19.2%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "9.5%"
+            }
+          }
+        ]
+      },
+      "oneMonth": {
+        "dateRange": "22/09/2023 - 22/10/2023",
+        "productWithMaxTimeSpent": {
+          "id": 19,
+          "name": "Online Course C",
+          "timeSpent": "36 hours"
         },
-        "threeMonths": {
-          "dateRange": "22/07/2023 - 22/10/2023",
-          "productWithMaxTimeSpent": {
-            "id": 19,
-            "name": "Online Course C",
-            "timeSpent": "98 hours"
-          },
-          "clickToSaleRatio": [
-            {
-              "productId": 12,
-              "productName": "Digital Artwork A",
-              "clicks": 26500,
-              "sales": 1860,
-              "ratio": "7%"
-            },
-            {
-              "productId": 15,
-              "productName": "E-Book B",
-              "clicks": 27900,
-              "sales": 1980,
-              "ratio": "7.1%"
+        "clickToSaleRatio": [
+          {
+            "productId": 12,
+            "productName": "Digital Artwork A",
+            "clicks": 8800,
+            "sales": 880,
+            "ratio": "10%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "10%"
             }
-          ]
-        }
+          },
+          {
+            "productId": 15,
+            "productName": "E-Book B",
+            "clicks": 9500,
+            "sales": 960,
+            "ratio": "10.1%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-0.9%"
+            }
+          },
+          {
+            "productId": 22,
+            "productName": "Online Course C",
+            "clicks": 9200,
+            "sales": 940,
+            "ratio": "10.2%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "2%"
+            }
+          },
+          {
+            "productId": 34,
+            "productName": "Software D",
+            "clicks": 8600,
+            "sales": 920,
+            "ratio": "10.7%",
+            "engagement": {
+              "impact": "no change",
+              "byPercentage": "0.9%"
+            }
+          },
+          {
+            "productId": 45,
+            "productName": "Music Album E",
+            "clicks": 8000,
+            "sales": 940,
+            "ratio": "11.8%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-6.4%"
+            }
+          },
+          {
+            "productId": 58,
+            "productName": "Photography F",
+            "clicks": 7500,
+            "sales": 960,
+            "ratio": "12.8%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "8.5%"
+            }
+          }
+        ]
+      },
+      "threeMonths": {
+        "dateRange": "22/07/2023 - 22/10/2023",
+        "productWithMaxTimeSpent": {
+          "id": 19,
+          "name": "Online Course C",
+          "timeSpent": "98 hours"
+        },
+        "clickToSaleRatio": [
+          {
+            "productId": 12,
+            "productName": "Digital Artwork A",
+            "clicks": 26500,
+            "sales": 1860,
+            "ratio": "7%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "16.7%"
+            }
+          },
+          {
+            "productId": 15,
+            "productName": "E-Book B",
+            "clicks": 27900,
+            "sales": 1980,
+            "ratio": "7.1%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-0.7%"
+            }
+          },
+          {
+            "productId": 22,
+            "productName": "Online Course C",
+            "clicks": 26000,
+            "sales": 1920,
+            "ratio": "7.4%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "8.1%"
+            }
+          },
+          {
+            "productId": 34,
+            "productName": "Software D",
+            "clicks": 24500,
+            "sales": 1850,
+            "ratio": "7.6%",
+            "engagement": {
+              "impact": "no change",
+              "byPercentage": "0%"
+            }
+          },
+          {
+            "productId": 45,
+            "productName": "Music Album E",
+            "clicks": 22000,
+            "sales": 1920,
+            "ratio": "8.7%",
+            "engagement": {
+              "impact": "decreased",
+              "byPercentage": "-2.1%"
+            }
+          },
+          {
+            "productId": 58,
+            "productName": "Photography F",
+            "clicks": 20500,
+            "sales": 1980,
+            "ratio": "9.7%",
+            "engagement": {
+              "impact": "increased",
+              "byPercentage": "3.2%"
+            }
+          }
+        ]
       }
     }
   }
-  
+}
