@@ -305,7 +305,7 @@
           }
         ]
       },
-      "threeMonths": {
+      "lastThreeMonths": {
         "dateRange": "22/07/2023 - 22/10/2023",
         "productWithMaxTimeSpent": {
           "id": 19,
