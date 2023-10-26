@@ -36,4 +36,4 @@ The backend is built using Rails and is designed to operate independently from t
    - rails - v7.1.1
    - bundle - v2.4.21
 2. The UI development has happened on the MSI GL66 Pluse machine, so the color accuracy may differ.
-3. We have used Linux OS for the entire development, so in case you are facing some issues in running this locally please get in touch with me.
+3. We have used Linux OS for the entire development, so in case you are facing some issues in running this locally, please get in touch with me.
