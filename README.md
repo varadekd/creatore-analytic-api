@@ -1,4 +1,4 @@
-# Gumroad Creator Analytics Dashboard API - [Coding challenge]
+# Creator Analytics Dashboard API
 
 ## Introduction
 
